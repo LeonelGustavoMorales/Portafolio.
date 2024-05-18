@@ -1,0 +1,297 @@
+*{
+    padding: 20px;
+    margin: 0 auto;
+}
+.contenedorEncabezado{
+     background-color:rgb(162, 108, 108);
+}
+.tituloMarca{
+    font-size: 35px;
+    color: white;
+    margin-left: 15px;
+    font-family: "Great Vibes", cursive;
+}
+.cajaLogo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.cajaNavegacion{
+    font-size: 25px;
+    margin-top: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Simonetta", serif;
+}.link{
+    color: white;
+    text-decoration: none;
+}
+.presentacion{
+    font-size: 30px;
+    color: white;
+    margin: 15px 25px 5px 25px;
+    font-family: "Oswald", sans-serif;
+}
+.Nombre{
+    font-size: 45px;
+    color: rgb(46, 2, 43);
+    margin: 5px 25px 5px 25px;
+    font-family: "Great Vibes", cursive;
+    font-weight: bold;
+}
+.carrera{
+    font-size: 30px;
+    color: white;
+    margin: 5px 25px 5px 25px;
+    font-family: "Oswald", sans-serif;
+}
+.cajaFoto{
+    width: 200px; height: 200px;
+    margin: 0 50px 0 80px;
+    
+}
+
+.cajaPresentacion{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+    margin: 15px 0 0 0;
+}
+.face{
+    width: 110px; height: 110px;
+    margin: 0 15px 0 15px;
+}
+.insta{
+    width: 90px; height: 90px;
+    margin: 0 15px 0 15px;
+}
+.x{
+    width: 90px; height: 90px;
+    margin: 0 15px 0 15px;
+}
+.cajaRedes{
+    margin-top: 25px;
+    font-size: 25px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.Descarga{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px 0 15px;
+    font-family: "Simonetta", serif;
+}
+.infoPerfil{
+width: 90%;
+display: flex;
+justify-content: space-around;
+
+}
+.datos{
+    height: 100%;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: justify;
+    width: 40%;
+}
+
+.datosObj{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:left;
+    font-size: 20px;
+    text-align: justify;
+    width: 40%;
+}
+.itmImagen{
+    width: 100px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.itmTitulo{
+    font-size: 20px;
+    margin-top: 8px;
+    text-align: center;
+}
+.listaConociminetos{
+    display: flex;
+    justify-content:space-around
+}
+.itemConocimiento{
+    width: 150px;
+    height: 170px;
+    border: 2px solid black;
+    margin: 10px 10px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.tituloConocimientos{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.itemConocimiento:hover{
+background-color: blueviolet;
+}
+.listAcademica{
+    display: flex;
+    justify-content:center;
+}
+.itmHTML{
+    width: 200px;
+}
+.itmLive{
+    width: 130px;
+}
+.itmElec{
+    width: 150px;
+}
+.itmCap{
+    width: 150px;
+}
+.itmArd{
+    width: 150px;
+    margin-bottom: 15px;
+}
+.itmCan{
+    width: 150px;
+    margin-bottom: 15px;
+}
+.itmImg{
+    width: 150px; 
+    margin-left: 25px;
+}
+.itmImgC{
+    width: 170px;
+}
+.ContactFace{
+    width: 110px; height: 110px;
+    margin: 0 10px 0 15px;
+}
+.ContactInsta{
+    width: 90px; height: 90px;
+    margin: 10px 15px 0 15px;
+}
+.ContactX{
+    width: 90px; height: 90px;
+    margin: 10px 15px 0 15px;
+}
+.Contactos{
+    background-color:rgb(188, 137, 237);
+}
+.Contactame{
+    display: flex;
+    justify-content:space-around;
+    margin: 25px 0 0 0;
+
+}
+.conta{
+    font-size: 25px;
+    color: rgba(131, 12, 123, 0.878);
+    margin: 5px 25px 10px 25px; 
+    font-weight: bold;
+}
+.Form{
+    width: 500px;
+    height: 10px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    display: flex;  
+}
+.MSG{
+    width: 500px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;   
+}
+.enviar{
+    background-color:blanchedalmond;
+    width: 100px;
+    height: 10px;
+    border: 1px solid black;
+    margin: 10px 0 0 225px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listAcademicaC{
+    display: flex;
+    justify-content:center;
+}
+.itmImagenCO{
+    width: 100px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+.nota{
+    display: flex;
+}
+.nota{
+    font-size: 25px;
+    margin: 5px 25px 10px 25px; 
+}
+.itmImgCO{
+    display: flex;
+    width: 55px; 
+    margin-left: 25px;
+}
+.logoC{
+    width: 100px;
+}
+*{
+    padding: 20px;
+    margin: 0 auto;
+}
+.derechos{
+    display: flex;
+    margin-top: 20px;
+    background-color:antiquewhite;
+}
+.log{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.copy{
+margin-top: 40px;
+}
+.secccion{
+    margin-top: 5px;
+    margin-left: 400px;
+    font-size: 25px;
+    display:flex;
+    align-items:flex-end;
+    justify-content:flex-end;
+}
+.faceUlt{
+    width: 95px;
+    
+}
+.instaUlt{
+    width: 75px;
+    margin: 10px 10px 10px 10px;
+}
+.xUlt{
+    width: 75px;
+    margin: 10px 10px 10px 10px;
+}
